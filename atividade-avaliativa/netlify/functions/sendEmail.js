@@ -20,6 +20,7 @@ exports.handler = async (event) => {
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: 'email_do_seu_professor@exemplo.com', 
+      to: 'dudujrf@gmail.com', 
       subject: `Contato da Landing Page - ${email}`,
       text: `Remetente: ${email}\n\nMensagem enviada:\n${mensagem}`,
     });
