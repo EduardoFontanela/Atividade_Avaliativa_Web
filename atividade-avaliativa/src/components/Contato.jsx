@@ -59,7 +59,7 @@ export default function Contato() {
             className="w-full p-4 rounded bg-zinc-900 border border-zinc-800 text-white focus:outline-none focus:border-[#3b82f6]"
           />
           <textarea
-            placeholder="Motivo do contato. Ex: Gostei muito do produto X, poderia me enviar um orçamento?"
+            placeholder="Motivo do contato. Ex: Gostei muito do produto, poderia me enviar um orçamento?"
             value={mensagem}
             onChange={(e) => setMensagem(e.target.value)}
             required
